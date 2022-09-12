@@ -2,7 +2,7 @@ package notes;
 
 import java.util.Scanner;
 
-public class Notes04_Scanners {
+public class Notes03_Scanners {
 	public static void main(String[] args) {
 		/*
 		 * Scanner
@@ -20,6 +20,8 @@ public class Notes04_Scanners {
 		 * 
 		 * .next() - grabs up to a space or return
 		 * .nextLine() - grabs up to a return
+		 * .nextInt() - grabs the next input as an integer
+		 * .nuxtDouble() - grabs the next input as an double
 		 */
 			
 		
@@ -48,6 +50,25 @@ public class Notes04_Scanners {
 		//Use it
 		System.out.println("He really " + greatDeath + "?");
 
+		
+		
+		
+		/*
+		 * Scanning integers and doubles
+		 */
+		//Prompt
+		System.out.print("When did Willikins die? ");
+		//Scan
+		int wilikinsDeath = inKey.nextInt();
+		//Use it
+		System.out.println("he died in " + wilikinsDeath + "\n");
+
+		//Prompt
+		System.out.print("How much money was on Wilikins dead body? ");
+		//Scan
+		double wilikinsDeathPrice = inKey.nextDouble();
+		//Use it
+		System.out.println("He had " + wilikinsDeathPrice + " on him.");
 
 		
 
