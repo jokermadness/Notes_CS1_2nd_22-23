@@ -7,12 +7,14 @@ package notes;
  * 	
  * 	 int = integer (32 bit)
  * 		whole numbers from - to + 2.14billion
+ * 		Remember: Integer Division drops decimals
  * 		(long = 64 bit)
+ * 
  * 	 double = decimal (64 bit)
- * 		15 numbers with the decimal wherever it needs it
+ * 		15 numbers with the decimal that
+ *            floats wherever it's needed
  * 
  * Operators
- * 
  * 	 + add
  * 	 - subtract
  *   * multiply
@@ -42,7 +44,7 @@ public class Notes04_DataTypes_and_Operators {
 		
 		
 		int num3 = num1 % 50;
-		num1 = num1 / 50;
+		num1 = num1 / 50;   //Integer Division!!!
 		System.out.println("num1 = " + num1);
 		System.out.println("num2 = " + num2);
 		System.out.println("num3 = " + num3 + "\n");

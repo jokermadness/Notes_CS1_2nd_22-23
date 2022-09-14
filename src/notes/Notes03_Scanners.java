@@ -28,33 +28,42 @@ public class Notes03_Scanners {
 		//ONCE ONLY!!!
 		Scanner inKey = new Scanner(System.in);
 		
-		
+		/*
+		 * Scanning a full line
+		 */
 		//Prompt
 		System.out.print("Enter Favorite Barbie Movie: ");
 		//Scan
 		String favoriteMovie = inKey.nextLine();
 		//Use it
 		System.out.println("You really like " + favoriteMovie + 
-				"?  \nI knew something was wrong with you!!");
+				"?  \nI knew something was wrong with you!!\n");
 		
 		
 		//DO NOT RECREATE THE SCANNER!!!
 		//Unless you're in a new method
 		
-		
-		System.out.println();
 		//Prompt
 		System.out.print("What did Willikins do that got him killed? ");
 		//Scan
 		String greatDeath = inKey.nextLine();
 		//Use it
-		System.out.println("He really " + greatDeath + "?");
+		System.out.println("He really " + greatDeath + "?\n");
 
 		
+		/*
+		 * Scanning only 1 word
+		 */
+		//Prompt
+		System.out.print("What is Willikins last name? ");
+		//Scan
+		String nameLast = inKey.nextLine();
+		//Use it
+		System.out.println("He really " + nameLast + "?\n");
 		
 		
 		/*
-		 * Scanning integers and doubles
+		 * Scanning an Integer
 		 */
 		//Prompt
 		System.out.print("When did Willikins die? ");
@@ -63,6 +72,10 @@ public class Notes03_Scanners {
 		//Use it
 		System.out.println("he died in " + wilikinsDeath + "\n");
 
+		
+		/*
+		 * Scanning a Decimal
+		 */
 		//Prompt
 		System.out.print("How much money was on Wilikins dead body? ");
 		//Scan
