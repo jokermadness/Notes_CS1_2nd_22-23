@@ -33,6 +33,7 @@ public class Notes06_If_Statements {
 		String name1 = "Jeremy";
 		String name2 = new String("Jeremy");
 		String name3 = "jeRemy"; 
+		String name4 = "Willikins";
 		
 		//basic if statement
 		//if (<condition statement>)
@@ -105,7 +106,12 @@ public class Notes06_If_Statements {
 			System.out.println("name1 != Jeremy\n");
 		}
 		
-		
+		if ("Willikins".equals(name4)) {
+			System.out.println("Good 'ol Willikins\n");
+		}
+		else {
+			System.out.println("Bad 'ol Willikins\n");
+		}
 		
 		
 		
