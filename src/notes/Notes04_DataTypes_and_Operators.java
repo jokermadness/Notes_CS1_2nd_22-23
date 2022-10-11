@@ -29,7 +29,7 @@ public class Notes04_DataTypes_and_Operators {
 	public static void main(String[] args) {
 		
 		// declaring ints and doubles
-		int num1 = 65;
+		int num1 = 20;
 		double num2 = 5.216;
 		
 		
